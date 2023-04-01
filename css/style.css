@@ -583,6 +583,13 @@ video {
   margin-top: 1.5rem;
 }
 
+.line-clamp-5 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+
 .flex {
   display: flex;
 }
